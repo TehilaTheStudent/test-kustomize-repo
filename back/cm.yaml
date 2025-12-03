@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config-back
+data:
+  NGINX_HOST: localhost
+  NGINX_PORT: "80"
